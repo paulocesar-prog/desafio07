@@ -1,0 +1,13 @@
+{
+  "name": "readtime-js",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^30.0.5"
+  }
+}
