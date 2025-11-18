@@ -1,4 +1,4 @@
-name: Testes e Cobertura - Go
+name: Testes Go
 
 on:
   workflow_dispatch:
