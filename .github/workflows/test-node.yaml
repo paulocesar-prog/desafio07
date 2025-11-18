@@ -1,6 +1,7 @@
 name: Test - Node
 on:
-  workflow_dispatch:
+  pull_request:
+    branches: [ main ]
  
 jobs:
   test-node:
