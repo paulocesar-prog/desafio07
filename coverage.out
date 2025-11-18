@@ -1,0 +1,5 @@
+mode: set
+readtime/readtime.go:11.34,13.2 1 1
+readtime/readtime.go:15.57,16.14 1 1
+readtime/readtime.go:16.14,18.3 1 1
+readtime/readtime.go:19.2,20.39 2 1

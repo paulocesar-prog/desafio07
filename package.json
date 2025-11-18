@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "lint": "eslint .",
-    "test": "jest"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --testPathIgnorePatterns=jest.config.mjs"
   },
   "devDependencies": {
     "eslint": "^8.57.0",

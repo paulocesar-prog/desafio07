@@ -1,0 +1,24 @@
+name: Test - Node
+on:
+  dispatch:
+    branches: [ main ]
+
+jobs:
+  test-node:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18.x'
+
+      - name: Instalar dependências
+        working-directory: .
+        run: npm install
+
+      - name: Executar teste node
+        working-directory: .
+        run: npm run test
