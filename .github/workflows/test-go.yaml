@@ -1,4 +1,4 @@
-name: Testes Go
+name: Test - Go
 
 on:
   workflow_dispatch:
