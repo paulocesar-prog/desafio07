@@ -34,7 +34,7 @@ jobs:
       - name: Verifica dependências
         run: go mod tidy
 
-      - name: Executa testes com cobertura
+      - name: Executa testes
         run: |
           go test ./...
           
