@@ -1,8 +1,7 @@
 name: Test - Node
 on:
-  dispatch:
-    branches: [ main ]
-
+  workflow_dispatch:
+ 
 jobs:
   test-node:
     runs-on: ubuntu-latest
