@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        version: [18x, 20x, 22x]
+        version: [ '20x', '22x']
     name: Test - Node ${{ matrix.version }}
 
     steps:
